@@ -127,7 +127,7 @@ while running:
     screen.fill('black')
 
     draw = False
-    if count == 9:
+    if count == 9 and not check_winner():
         message = 'It\'s a draw!'
         draw = True
         game_over = True
