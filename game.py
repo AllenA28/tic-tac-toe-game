@@ -113,12 +113,13 @@ while running:
             pos = pygame.mouse.get_pos()
             tile = get_clicked_tile(pos, board)
             tile.marker = TILE_MARKERS[player]
-            count+=1
-            player = players[count %2]
             if check_winner():
                 count+=1
                 player = players[count %2]
                 game_over = True
+            count+=1
+            player = players[count %2]
+            
 
 
 
