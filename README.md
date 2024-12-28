@@ -1,1 +1,1 @@
-# tic-tac-toe-game
+# tic tac toe game done in pygame
